@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>200 книг</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="but01">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 10pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Предтечи 
+фантастики</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but02">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 10pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Научная
+фантастика</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but03">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 10pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Философия и
+социальная 
+фантастика</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but04">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 10pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Космическая
+опера</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but05">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 10pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Сатира
+и юмор</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but06">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 10pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Советская
+фантастика</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but07">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 10pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Эпическое
+фентези</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but08">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 7pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Приключенческое
+и героическое
+фэнтези</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but09">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 7,5pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Мифологическая
+фантастика</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but10">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 10pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Детско-
+юношеская
+фантастика</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but11">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 9pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Историческая
+фантастика
+и фэнтези</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but12">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 7pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">«Тёмная»
+фантастика
+(мистика и хоррор)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but13">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>0</y>
+      <width>98</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 216, 194, 255), stop:1 rgba(0, 255, 255, 255));
+font: 10pt &quot;Monospac821 BT&quot;;</string>
+    </property>
+    <property name="locale">
+     <locale language="Russian" country="Ukraine"/>
+    </property>
+    <property name="text">
+     <string notr="true">Другие
+направления
+фантастики</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>1281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
